@@ -1,0 +1,9 @@
+    @font-face{
+        font-family:"GaramondLight";
+        src:url("eaaa9c4d-3453-409a-b841-2aec92bfbf38.woff2") format("woff2"),url("5bfff12d-0919-422b-b6be-19f70f23222e.woff") format("woff");
+    }
+    @font-face{
+        font-family:"GaramondLight";
+        font-style: italic;
+        src:url("ca80d06e-d9e5-4bb5-b47b-7878b8076cc2.woff2") format("woff2"),url("4cfc5f2c-9b98-4937-9e59-263e97ba6f62.woff") format("woff");
+    }

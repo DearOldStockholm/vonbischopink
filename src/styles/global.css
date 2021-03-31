@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 em {
+  @apply relative inline-block not-italic;
+}
+
+h1 em::before {
+  content: "";
+  @apply absolute block w-full left-0 right-0 bottom-0 h-2 z-0 bg-cover;
+  background-image: url(/images/line.svg);
+}
+
+header,
+footer {
+  align-self: end;
+}

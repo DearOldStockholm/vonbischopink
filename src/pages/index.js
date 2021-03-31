@@ -2,40 +2,38 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`von bischopink`, `Stockholm`, `design`, `branding`]}
+        title="Creative Director"
       />
 
-      <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        />
-
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
+      <header className="text-center">
+        <h1 className="text-mobile md:text-tablet lg:text-desktop w-3/4 xl:w-1/2 mx-auto">
+          Of all the sites on the
+          <em>
+            &nbsp;<span className="z-10 relative">internet</span>&nbsp;
+          </em>
+          you ended up here.
+        </h1>
+        <h1 className="text-mobile md:text-tablet lg:text-desktop w-3/4 xl:w-1/2 mx-auto mt-4 md:mt-8 lg:mt-10">
+          Bummer.
+        </h1>
+      </header>
+      <footer className="text-center">
+        <p className="text-base w-full">
+          <a className="italic" href="mailto:sebastian@vonbischopink.com">
+            Sebastian von Bischopink
           </a>
-          , a utility-first CSS framework.
+          <br />
+          Creative Director
+          <br />
+          Stockholm, Sweden
         </p>
-      </section>
+      </footer>
     </Layout>
   );
 }

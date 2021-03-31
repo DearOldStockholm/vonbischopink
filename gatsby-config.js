@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Sebastian von Bischopink`,
+    description: `Sebastian von Bischopink. Creative Director in Stockholm, Sweden`,
+    author: `@allaboutseb`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -18,10 +18,17 @@ module.exports = {
         name: `gatsby-starter-tailwind`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.green["500"],
         display: `minimal-ui`,
         icon: `src/images/tailwind-icon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["GaramondLight"],
+          urls: ["/fonts/fonts.css"],
+        },
       },
     },
     {
