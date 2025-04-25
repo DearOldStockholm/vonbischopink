@@ -12,15 +12,14 @@ function IndexPage() {
       />
 
       <header className="text-center">
-        <h1 className="text-mobile md:text-tablet lg:text-desktop w-3/4 xl:w-1/2 mx-auto">
-          Of all the sites on the
-          <em>
-            &nbsp;<span className="z-10 relative">internet</span>&nbsp;
-          </em>
-          you ended up here.
+        <h1 className="text-mobile md:text-tablet lg:text-desktop w-full xl:w-1/2 mx-auto">
+          Billions of sites. Trillions of cat videos.
+          And here we are.
         </h1>
-        <h1 className="text-mobile md:text-tablet lg:text-desktop w-3/4 xl:w-1/2 mx-auto mt-4 md:mt-8 lg:mt-10">
-          Bummer.
+        <h1 className="text-mobile md:text-tablet lg:text-desktop w-full xl:w-1/2 mx-auto mt-4 md:mt-8 lg:mt-10">
+        <em>
+            &nbsp;<span className="z-10 relative">Lucky us.</span>&nbsp;
+          </em>
         </h1>
       </header>
       <footer className="text-center">
